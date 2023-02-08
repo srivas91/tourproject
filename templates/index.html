@@ -21,13 +21,13 @@
     </style>
 </head>
 <body>
-<h1>Tajmahal</h1>
-<div id="">
+<h1>{{ _('Tajmahal') }}</h1>
+<div id="id1">
 <img src="{{url_for('static', filename='tajmahal.jpg')}}" alt="image not displayed" align="middle"  id="myimg1"/>
-<p>The Taj Mahal is an Islamic ivory-white marble mausoleum
-    on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal</p>
-<h1>Great Wall of China</h1>
+<p>{{ _('Taj Mahal is a white marble mausoleum located in Agra, India') }}</p>
+<h1>{{ _('Great Wall of China') }}</h1>
 <img src="{{url_for('static', filename='chinawall.jpg')}}" alt="image not displayed"  id="myimg2" />
-    <p>The Great Wall of China  is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe</p>
+    <p>{{ _('It is the longest wall in the world, stretching over 13,000 miles') }}</p>
+</div>
 </body>
 </html>

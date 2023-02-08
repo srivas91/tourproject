@@ -1,0 +1,36 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-02-08 16:45+0530\n"
+"PO-Revision-Date: 2023-02-08 16:45+0530\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: templates/index.html:24
+msgid "Tajmahal"
+msgstr "Taj Mahal"
+
+#: templates/index.html:27
+msgid "Taj Mahal is a white marble mausoleum located in Agra, India"
+msgstr "Taj Mahal es un mausoleo de mármol blanco ubicado en Agra, India"
+
+#: templates/index.html:28
+msgid "Great Wall of China"
+msgstr "La Gran Muralla China"
+
+#: templates/index.html:30
+msgid "It is the longest wall in the world, stretching over 13,000 miles"
+msgstr "Es el muro más largo del mundo, con una extensión de más de 13,000 millas"
+
