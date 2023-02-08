@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img
+        {
+        width:200px;
+        height:200px;
+        }
+        p
+        {
+        width:300px;
+        height:200px;
+        }
+        div
+        {
+          display:flex;
+          flex-items:grow;
+        }
+    </style>
+</head>
+<body>
+<h1>Tajmahal</h1>
+<div id="">
+<img src="{{url_for('static', filename='tajmahal.jpg')}}" alt="image not displayed" align="middle"  id="myimg1"/>
+<p>The Taj Mahal is an Islamic ivory-white marble mausoleum
+    on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal</p>
+<h1>Great Wall of China</h1>
+<img src="{{url_for('static', filename='chinawall.jpg')}}" alt="image not displayed"  id="myimg2" />
+    <p>The Great Wall of China  is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe</p>
+</body>
+</html>
